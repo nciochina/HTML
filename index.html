@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meine Familie</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -20,25 +21,34 @@
         <li>Lucas</li>
       </ul>
     </nav>
-    <form action="#" method="POST" enctype="multipart/form-data"></form>
-    <input placeholder="User" type="text" name="username" value="">
-    <p><input placeholder="Password" type="password" name="userpass" value=""></p>
-    <div>
-      <input type="radio" name="beer" value="lager">Blonda
-      <p><input type="radio" name="beer" value="dark">Dunkel</p>
-    </div>
-    <div>
-      <input type="checkbox" name="car" value="yes">Automobil
-      <p><button type="submit">Schicken</button></p>
-      <p><input type="file" name="photo"></p>
-    </div>
-    <div>
-      <select name="kids">
-        <option value="Paul">Erste</option>
-        <option value="Lucas">Zweite</option>
-      </select>
-    </div>
-    <p>Lorem ipsum dolor sit amet.</p>
+    <div></div>
+    <form action="#" method="get">
+      <input placeholder="User" type="text" name="username" value="">
+      <p><input placeholder="Password" type="password" name="userpass" value=""></p>
+
+      <div>
+        <input type="radio" name="beer" value="lager">Blonda
+        <p><input type="radio" name="beer" value="dark">Dunkel</p>
+      </div>
+      <div>
+        <input type="checkbox" name="car" value="yes">Automobil
+
+        <p><input type="file" name="photo"></p>
+      </div>
+      <div>
+        <select name="kids">
+          <option value="Paul">Erste</option>
+          <option value="Lucas">Zweite</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <button type="submit">Schicken</button>
+        <button type="reset">Abrechen</button>
+      </div>
+
+    </form>
+    <p>Lorem <span>ipsum dolor sit</span> amet.</p>
   </header>
   <footer>
     <b>Etwas Unten</b>
