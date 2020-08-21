@@ -29,3 +29,11 @@ span {
   text-shadow: 1px 1px 10px rgb(85, 83, 83);
   letter-spacing: 5px;
 }
+.block {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid red; 
+}
+.exmp {
+  border: 2px solid rgb(16, 221, 61);
+}
