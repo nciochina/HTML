@@ -30,15 +30,34 @@ span {
   letter-spacing: 5px;
 }
 
+body {
+  padding: 20px;
+}
+
+.block0 {
+  block-size: 300px;
+  border: 3px none #000;
+  border-radius: 20px;
+  box-shadow: black 0px 0px 10px 0px;
+  margin: 0px 0px 30px;
+  background: url("/img/2019-07-14\ 08.17.33\ 1.jpg") center no-repeat;
+
+}
+
 .block {
   width: 300px;
   padding: 10px;
-  border: 1px solid red;
+  font-size: 30px;
+  color: seagreen;
   text-align: center;
+  border: 8px dotted rgb(130, 160, 160);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 5px 10px 5px slategrey;
 }
 
 .exmp {
   width: 200px;
-  border: 2px solid rgb(16, 221, 61);
+  border: 5px dotted rgb(5, 95, 25);
   margin: 0 0 30px;
+  border-radius: 15px 15px 15px 15px;
 }
