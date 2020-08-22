@@ -31,16 +31,30 @@ span {
 }
 
 body {
+  font-family: serif, Arial, Helvetica, sans-serif;
   padding: 20px;
 }
 
+.list {
+  margin: 50px 0 50px 0;
+}
+
+.list li {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  background: url("/img/icons/li.svg") left no-repeat;
+  padding: 0 0 0 20px;
+}
+
+
 .block0 {
-  block-size: 300px;
+  block-size: 500px;
   border: 3px none #000;
   border-radius: 20px;
   box-shadow: black 0px 0px 10px 0px;
   margin: 0px 0px 30px;
-  background: url("/img/2019-07-14\ 08.17.33\ 1.jpg") center no-repeat;
+  background: url("/img/2019-07-14 08.17.33 1.jpg") center no-repeat, url("/img/Image.png")50%/cover no-repeat;
+
 
 }
 
